@@ -1,0 +1,93 @@
+{
+    "colors": [
+        {
+            "id": 1,
+            "option": "Silver",
+            "price": 500      
+        },
+        {
+            "id": 2,
+            "option": "Midnight Blue",
+            "price": 750      
+        },
+        {
+            "id": 3,
+            "option": "Firebrick Red",
+            "price": 1000      
+        },
+        {
+            "id": 4,
+            "option": "Spring Green",
+            "price": 600      
+        }
+    ],
+    "interiors": [
+        {
+            "id": 1,
+            "option": "Beige Fabric",
+            "price": 600      
+        },
+        {
+            "id": 2,
+            "option": "Charcoal Fabric",
+            "price": 600      
+        },
+        {
+            "id": 3,
+            "option": "White Leather",
+            "price": 600      
+        },
+        {
+            "id": 4,
+            "option": "Black Leather",
+            "price": 600      
+        }
+    ],
+    "wheels": [
+        {
+            "id": 1,
+            "option": "17-inch Pair Radial",
+            "price": 200      
+        },
+        {
+            "id": 2,
+            "option": "17-inch Pair Radial Black",
+            "price": 250     
+        },
+        {
+            "id": 3,
+            "option": "18-inch Pair Spoke Silver",
+            "price": 300      
+        },
+        {
+            "id": 4,
+            "option": "18-inch Pair Spoke Black",
+            "price": 350      
+        }
+    ],
+    "displays": [
+        {
+            "id": 1,
+            "option": "Basic Package",
+            "price": 500      
+        },{
+            "id": 2,
+            "option": "Navigation Package",
+            "price": 800      
+        },
+        {
+            "id": 3,
+            "option": "Visibility Package",
+            "price": 1000      
+        },
+        {
+            "id": 4,
+            "option": "Ultra Package",
+            "price": 1200      
+        }
+    ],
+    "orders": [
+
+    ]
+
+}
