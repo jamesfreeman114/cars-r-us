@@ -15,7 +15,7 @@ export const paintOptions = async () => {
     const paintOptions = await response.json()
 
     let html = `<select id="paint">
-                        <option value="0">Prompt to select resource...</option>`
+                        <option value="0">Choose paint color...</option>`
 
     const paintOptionsHTML = paintOptions.map (
         (paintOption) => {

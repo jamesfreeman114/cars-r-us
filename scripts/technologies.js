@@ -17,7 +17,7 @@ export const techOptions = async () => {
     const techOptions = await response.json()
 
     let html = `<select id="tech">
-                        <option value="0">Prompt to select resource...</option>`
+                        <option value="0">Choose technologies...</option>`
 
     const techOptionsHTML = techOptions.map (
         (techOption) => {

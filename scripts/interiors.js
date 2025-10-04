@@ -15,7 +15,7 @@ export const interiorOptions = async () => {
     const interiorOptions = await response.json()
 
     let html = `<select id="interior">
-                        <option value="0">Prompt to select resource...</option>`
+                        <option value="0">Choose interior type...</option>`
 
     const interiorOptionsHTML = interiorOptions.map (
         (interiorOption) => {

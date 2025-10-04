@@ -2,7 +2,8 @@ const transientState = {
     colorId: 0,
     displayId: 0,
     interiorId: 0,
-    wheelId: 0
+    wheelId: 0,
+    vehicleId: 0
 }
 
 export const setPaintId = (chosenOwnership) => {
@@ -19,6 +20,10 @@ export const setInteriorId = (chosenOwnership) => {
 
 export const setWheelId = (chosenOwnership) => {
     transientState.wheelId = chosenOwnership
+}
+
+export const setVehicleId = (chosenOwnership) => {
+    transientState.vehicleId = chosenOwnership
 }
 
 export const placeOrder = async () => {
