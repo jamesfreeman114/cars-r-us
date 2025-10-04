@@ -2,6 +2,7 @@ import { wheelOptions } from "./wheels.js";
 import { interiorOptions } from "./interiors.js";
 import { paintOptions } from "./paints.js";
 import { techOptions } from "./technologies.js";
+import { vehicleOptions } from "./vehicleOption.js";
 import { orderSubmissionButton } from "./orderButton.js";
 import { displayOrders } from "./orderList.js";
 
@@ -12,6 +13,7 @@ const render = async () => {
     const interiorsHTML = await interiorOptions()
     const paintsHTML = await paintOptions()
     const techHTML = await techOptions()
+    const vehiclesHTML = await vehicleOptions()
     const orderButtonHTML = await orderSubmissionButton()
     const orderListHTML = await displayOrders()
 
@@ -35,6 +37,11 @@ const render = async () => {
                 <h2>Interiors</h2>
                 ${interiorsHTML}
             </section>
+            <section class="choices__vehicles options">
+                <h2>Vehicles</h2>
+                ${vehiclesHTML}
+            </section>
+
     </article>
 
     <article class ="orders">

@@ -17,7 +17,7 @@ export const wheelOptions = async () => {
     const wheelOptions = await response.json()
 
     let html = `<select id="wheels">
-                        <option value="0">Prompt to select resource...</option>`
+                        <option value="0">Choose wheel type...</option>`
 
     const wheelOptionsHTML = wheelOptions.map (
         (wheelOption) => {

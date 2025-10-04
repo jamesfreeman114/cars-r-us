@@ -87,27 +87,63 @@
       "price": 1200
     }
   ],
+  "vehicles": [
+    {
+      "id": 1,
+      "option": "Car",
+      "multiplier": 1
+    },
+    {
+      "id": 2,
+      "option": "SUV",
+      "multiplier": 1.5
+    },
+    {
+      "id": 3,
+      "option": "Truck",
+      "multiplier": 2.25
+    }
+  ],
   "orders": [
     {
       "colorId": 1,
       "displayId": 4,
       "interiorId": 1,
       "wheelId": 1,
+      "vehicleId": 1,
       "id": 1
     },
     {
-      "colorId": 4,
+      "colorId": 2,
       "displayId": 1,
       "interiorId": 3,
-      "wheelId": 2,
+      "wheelId": 1,
+      "vehicleId": 1,
       "id": 2
     },
     {
-      "colorId": 3,
+      "colorId": 1,
       "displayId": 1,
-      "interiorId": 2,
-      "wheelId": 4,
+      "interiorId": 1,
+      "wheelId": 1,
+      "vehicleId": 1,
       "id": 3
+    },
+    {
+      "colorId": 1,
+      "displayId": 1,
+      "interiorId": 1,
+      "wheelId": 1,
+      "vehicleId": 2,
+      "id": 4
+    },
+    {
+      "colorId": 1,
+      "displayId": 1,
+      "interiorId": 1,
+      "wheelId": 1,
+      "vehicleId": 3,
+      "id": 5
     }
   ]
 }
